@@ -14,5 +14,10 @@ RewriteEngine on
     # URL: ?posts=addForm
     RewriteRule ^posts/add/form\.html$ index.php?posts=addForm [L]
 
+    # ROUTE D'AJOUT D'UN POST: INSERT
+    # PATTERN: /posts/add/insert.html
+    # URL: ?posts=add
+    RewriteRule ^posts/add/insert\.html$ index.php?posts=add [L]
+
 RewriteCond %{REQUEST_URI} !\.(js|css|jpg|gif|zip|png|pdf)$ [NC]
 RewriteRule ^(.*)$ index.php [L]
