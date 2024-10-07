@@ -13,7 +13,9 @@
     <title>DevBlog - Personal Blog Template</title>
     <base href="<?php echo BASE_PUBLIC_URL ; ?>">
     <!-- Favicon -->
-    <link rel="shortcut icon" href="images/favicon/my-favicon.ico" />
+    <link rel="icon" type="image/png" href="../images/favicon/favicon.ico">
+    <link rel="icon" href="../images/favicon/favicon.ico">
+    <link rel="icon" type="image/icon" href="images/favicon/favicon.ico" />
     <link
       rel="apple-touch-icon"
       sizes="144x144"
