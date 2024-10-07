@@ -3,7 +3,7 @@
               <div class="row">
                 <div class="sub-title">
                   <a href="index.html" title="Go to Home Page"
-                    ><h2 style="color:#d9493f;"">Back Home</h2></a
+                    ><h2>Back Home</h2></a
                   >
                   <a href="#comment" class="smoth-scroll"
                     ><i class="icon-bubbles"></i
