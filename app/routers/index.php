@@ -9,7 +9,6 @@
 if (isset($_GET['posts'])):
     include_once '../app/routers/posts.php';
 
-
 // 	ROUTE PAR DEFAUT: liste des posts²
 // 		PATTERN: /
 // 		CTRL: ???
