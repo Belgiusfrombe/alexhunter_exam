@@ -9,7 +9,9 @@
                       >
                     </div>
                     <div class="post-info">
-                      <span><?php echo date('j m Y', strtotime($post['created_at'])); ?></span> | <span><?php echo $post['category_name']; ?></span>
+                      <span><?php echo date('j F Y', strtotime($post['created_at'])); 
+                      ?>
+                    </span> | <span><?php echo $post['category_name']; ?></span>
                     </div>
                     <p>
                     <?php echo substr($post['text'], 0, 150)?> ...

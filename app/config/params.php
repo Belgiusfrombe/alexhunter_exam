@@ -1,6 +1,5 @@
 <?php
 
-
 // INITIALISATION DES ZONES DYNAMIQUES
 $title = "";
 $content = "";
